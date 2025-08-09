@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Member</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <h1>📚 Library Management</h1>
+        <ul>
+            <li><a href="index.html">Dashboard</a></li>
+            <li><a href="add-book.html">Add Book</a></li>
+            <li><a href="add-member.html">Add Member</a></li>
+            <li><a href="issue-book.html">Issue Book</a></li>
+            <li><a href="return-book.html">Return Book</a></li>
+            <li><a href="reports.html">Reports</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2>Add New Member</h2>
+        <form id="memberForm">
+            <input type="text" id="memberName" placeholder="Member Name" required>
+            <input type="email" id="memberEmail" placeholder="Member Email" required>
+            <input type="text" id="memberId" placeholder="Member ID" required>
+            <button type="submit">Add Member</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
