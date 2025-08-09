@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LibraryPro - Books</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h2>📚 LibraryPro</h2>
+    </div>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="books.html" class="active">Books</a>
+      <a href="members.html">Members</a>
+      <a href="borrow.html">Borrow/Return</a>
+      <a href="reports.html">Reports</a>
+    </nav>
+  </header>
+
+  <section class="container">
+    <h1>📖 Manage Books</h1>
+    <p>Add, edit, and search books in your library.</p>
+
+    <div class="card">
+      <form>
+        <input type="text" placeholder="Book Title" required />
+        <input type="text" placeholder="Author" required />
+        <input type="number" placeholder="Year" required />
+        <input type="text" placeholder="Category" required />
+        <button type="submit">Add Book</button>
+      </form>
+    </div>
+
+    <div class="card">
+      <h3>📚 Book List</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Title</th><th>Author</th><th>Year</th><th>Category</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>The Great Gatsby</td><td>F. Scott Fitzgerald</td><td>1925</td><td>Fiction</td>
+          </tr>
+          <tr>
+            <td>1984</td><td>George Orwell</td><td>1949</td><td>Dystopian</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 LibraryPro | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
