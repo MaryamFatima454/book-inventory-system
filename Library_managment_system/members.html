@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LibraryPro - Members</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h2>📚 LibraryPro</h2>
+    </div>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="books.html">Books</a>
+      <a href="members.html" class="active">Members</a>
+      <a href="borrow.html">Borrow/Return</a>
+      <a href="reports.html">Reports</a>
+    </nav>
+  </header>
+
+  <section class="container">
+    <h1>🧑‍🤝‍🧑 Members</h1>
+    <p>Manage library members and their records.</p>
+
+    <div class="card">
+      <form>
+        <input type="text" placeholder="Full Name" required />
+        <input type="email" placeholder="Email" required />
+        <input type="text" placeholder="Phone Number" required />
+        <button type="submit">Add Member</button>
+      </form>
+    </div>
+
+    <div class="card">
+      <h3>👥 Member List</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th><th>Email</th><th>Phone</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ali Khan</td><td>ali@example.com</td><td>0300-1234567</td>
+          </tr>
+          <tr>
+            <td>Sara Ahmed</td><td>sara@example.com</td><td>0321-7654321</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 LibraryPro | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
