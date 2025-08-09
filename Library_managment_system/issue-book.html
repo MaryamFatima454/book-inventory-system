@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Issue Book</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <h1>📚 Library Management</h1>
+        <ul>
+            <li><a href="index.html">Dashboard</a></li>
+            <li><a href="add-book.html">Add Book</a></li>
+            <li><a href="add-member.html">Add Member</a></li>
+            <li><a href="issue-book.html">Issue Book</a></li>
+            <li><a href="return-book.html">Return Book</a></li>
+            <li><a href="reports.html">Reports</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2>Issue Book</h2>
+        <form id="issueForm">
+            <select id="issueBook" required></select>
+            <select id="issueMember" required></select>
+            <input type="date" id="issueDate" required>
+            <button type="submit">Issue</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
