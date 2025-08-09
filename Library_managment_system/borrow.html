@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LibraryPro - Borrow/Return</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h2>📚 LibraryPro</h2>
+    </div>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="books.html">Books</a>
+      <a href="members.html">Members</a>
+      <a href="borrow.html" class="active">Borrow/Return</a>
+      <a href="reports.html">Reports</a>
+    </nav>
+  </header>
+
+  <section class="container">
+    <h1>⏳ Borrow & Return</h1>
+    <p>Process book borrowing and returns.</p>
+
+    <div class="card">
+      <form>
+        <input type="text" placeholder="Member Name" required />
+        <input type="text" placeholder="Book Title" required />
+        <input type="date" required />
+        <button type="submit">Borrow Book</button>
+      </form>
+    </div>
+
+    <div class="card">
+      <h3>📜 Borrowed Books</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Member</th><th>Book</th><th>Due Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ali Khan</td><td>The Great Gatsby</td><td>2025-08-15</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 LibraryPro | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
